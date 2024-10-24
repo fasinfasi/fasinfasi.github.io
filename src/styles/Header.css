@@ -1,0 +1,26 @@
+.header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header li {
+    margin: 0 20px;
+  }
+  
+  .header a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header a:hover {
+    color: #f4f4f4;
+  }
+  

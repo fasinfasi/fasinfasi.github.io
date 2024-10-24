@@ -1,0 +1,16 @@
+.contact {
+    text-align: center;
+  }
+  
+  .contact a {
+    text-decoration: none;
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .contact a:hover {
+    background: #0056b3;
+  }
+  
