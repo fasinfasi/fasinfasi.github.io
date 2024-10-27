@@ -1,29 +1,29 @@
 import React from 'react';
 import '../styles/Contact.css';
-import { FaGithub, FaLinkedin, FaTwitter, FaDiscord, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa'; // Import icons
+import { FaDiscord } from 'react-icons/fa6';
 
 function Contact() {
   return (
     <section id="contact" className="contact">
       <h2>Contact Me</h2>
       <p>Feel free to reach out for collaborations, opportunities, or just to say hi!</p>
-
-      <div className="social-icons">
-        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
-          <FaGithub /> GitHub
-        </a>
-        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
-          <FaLinkedin /> LinkedIn
-        </a>
-        <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer">
-          <FaTwitter /> Twitter
-        </a>
-        <a href="https://discord.com/users/yourdiscordid" target="_blank" rel="noopener noreferrer">
-          <FaDiscord /> Discord
-        </a>
-        <a href="mailto:your.email@example.com">
-          <FaEnvelope /> Email
-        </a>
+      <div className="contact-info">
+        <p>Email: <a href="mailto:fasinfasi17@gmail.com">fasinfasi17@gmail.com</a></p>
+        <div className="contact-social-icons">
+          <a href="https://www.linkedin.com/in/fasinfasi" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin className="social-icon" />
+          </a>
+          <a href="https://github.com/fasinfasi" target="_blank" rel="noopener noreferrer">
+            <FaGithub className="social-icon" />
+          </a>
+          <a href="https://x.com/FasiFasin69751" target="_blank" rel="noopener noreferrer">
+            <FaTwitter className="social-icon" />
+          </a>
+          <a href="https://discord.com/fasinfasi " target="_blank" rel="noopener noreferrer">
+            <FaDiscord className="social-icon" />
+          </a>
+        </div>
       </div>
     </section>
   );

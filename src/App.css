@@ -2,6 +2,7 @@
   font-family: "Arial", sans-serif;
   color: #333;
   line-height: 1.6;
+  margin-inline: 60px;
 }
 section {
   padding: 40px 20px;

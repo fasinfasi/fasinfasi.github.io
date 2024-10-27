@@ -1,55 +1,95 @@
 .hero {
   display: flex;
-  align-items: center; /* Vertically center the content */
-  justify-content: space-between; /* Space out the text and image */
-  padding: 40px; /* Add some padding */
-  background-color: #f5f5f5; /* Background color for the hero section */
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #f5f5f5;
+  position: relative;
+}
+
+.social-icons {
+  position: absolute;
+  top: 170px; /* Position it towards the top */
+  left: 30px; /* Position it towards the left */
+  transform: translate(-50%, 0); /* Center the icons horizontally */
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between icons */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.social-icon {
+  font-size: 24px; /* Adjust icon size */
+  color: #000;
+  transition: color 0.3s, font-size 0.3s;
+}
+
+.social-icon:hover {
+  color: #0056b3;
+  font-size: 26px; /* Slight increase in size on hover */
+}
+
+.name-head{
+  margin-bottom: 0;
 }
 
 .hero-content {
   display: flex;
-  flex-direction: row; /* Align children in a row */
-  width: 100%; /* Take full width */
+  flex-direction: row;
+  width: 100%;
+  margin-left: 60px; /* Adjust if needed */
 }
 
 .text-content {
-  flex: 1; /* Allow text to take remaining space */
-  max-width: 600px; /* Optional: Limit width for better readability */
-  display: flex; /* Use flex to center text */
-  flex-direction: column; /* Align children in a column */
-  justify-content: center; /* Center text vertically */
+  flex: 1;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.learn-txt{
+  color: green;
+  font-size: 1.1em;
 }
 
 .image-content {
-  flex: 1; /* Allow image to take equal space */
-  display: flex; /* Center image */
+  flex: 1;
+  display: flex;
   justify-content: center;
 }
 
 .image-content img {
-  max-width: 100%; /* Make image responsive */
-  height: 400px; /* Maintain aspect ratio */
-  border-radius: 10px; /* Optional: Add rounded corners */
+  max-width: 100%;
+  height: 400px;
+  border-radius: 10px;
 }
 
 .hero-btn {
-  display: inline-block; /* Make button inline */
-  padding: 10px 20px; /* Button padding */
-  background-color: #007bff; /* Button color */
-  color: white; /* Button text color */
-  border: none; /* Remove border */
-  border-radius: 5px; /* Rounded corners */
-  text-decoration: none; /* Remove underline */
-  transition: background-color 0.3s; /* Transition for hover effect */
+  display: inline-block;
+  padding: 14px 16px;
+  width: 200px;
+  /* margin: 10px; */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  margin-top: 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  transition: background-color 0.3s;
 }
 
 .hero-btn:hover {
-  background-color: #0056b3; /* Darker color on hover */
+  background-color: #0056b3;
+  text-decoration: none;
 }
 
-/* New styles to reduce spacing between heading and subheading */
 .text-content b {
-  margin-top: 0; /* Remove any top margin */
-  margin-bottom: 0; /* Remove any bottom margin */
-  line-height: 1; /* Adjust line height if necessary */
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1;
 }

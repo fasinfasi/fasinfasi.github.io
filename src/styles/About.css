@@ -1,9 +1,39 @@
 .about {
-    text-align: center;
-  }
-  
-  .about p {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
+  text-align: center;
+  margin-top: 90px;
+}
+.about-head{
+  margin-bottom: 0;
+}
+.about-content {
+  display: flex; /* Use flexbox for layout */
+  align-items: flex-start; /* Align items at the top */
+  justify-content: center; /* Center items horizontally */
+  padding-top: 30px;
+  flex-wrap: wrap; /* Allow wrapping if necessary */
+}
+.s{
+  display: block;
+  font-size: 15px;
+  margin-bottom: 3rem;
+}
+.about-image {
+  width: 300px; /* Limit image width */
+  height: 400px;
+  margin-right: 20px; /* Space between text and image */
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+.text-content {
+  max-width: 410px; /* Limit text content width */
+  margin: 0; /* Remove margin */
+  padding: 25px;
+  display: flex; /* Use flexbox for vertical alignment */
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: flex-start; /* Align to the start */
+  text-align: left; /* Align text to the left */
+}
+
+.text-content h5 {
+  margin-bottom: 10px; /* Space below the h5 tag */
+}
