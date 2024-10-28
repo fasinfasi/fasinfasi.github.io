@@ -1,16 +1,16 @@
 import React from 'react';
 import '../styles/Hero.css';
-import myImage from '../assets/fasin_img.png';
+import myImage from '../assets/hero_img.png';
 import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
 
 function Hero() {
   return (
     <section className="hero">
       <div className="social-icons">
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/fasinfasi" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="social-icon" />
         </a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/fasinfasi" target="_blank" rel="noopener noreferrer">
           <FaGithub className="social-icon" />
         </a>
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">

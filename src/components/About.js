@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/About.css';
-import myImage from '../assets/fasin_img.png'; // Update with your image path
+import myImage from '../assets/about_img.jpg'; // Update with your image path
 
 function About() {
   return (

@@ -1,18 +1,29 @@
-.skills{
+.skills ul {
+  list-style-type: none;
+  padding: 0;
   text-align: center;
+  display: flex; /* Align items horizontally */
+  flex-wrap: wrap; /* Allow wrapping to next line if needed */
+  justify-content: center; /* Center items horizontally */
 }
 
-.skills ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-  }
-  
-  .skills li {
-    display: inline-block;
-    margin: 10px 20px;
-    padding: 10px 20px;
-    background: #f4f4f4;
-    border-radius: 5px;
-  }
-  
+.skills li {
+  display: flex;
+  align-items: center;
+  margin: 10px 15px; /* Adjust spacing between items */
+  padding: 10px 20px;
+  background: #f4f4f4;
+  border-radius: 5px;
+}
+
+.skills li svg {
+  margin-right: 8px; /* Space between icon and text */
+  font-size: 1.5em; /* Adjust icon size */
+}
+
+
+.skills li img.logo {
+  width: 26px; /* Adjust logo size */
+  height: 24px;
+  margin-right: 3px; /* Space between logo and text */
+}
