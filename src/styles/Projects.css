@@ -23,6 +23,8 @@
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .project img.project-image {
@@ -43,13 +45,17 @@
   font-size: 1em;
   color: #555;
   line-height: 1.4;
-  margin: 0 0 15px;
+  margin: 0;
+  flex-grow: 1; /* Expands the paragraph to fill available space */
+  margin-bottom: 15px;
 }
 
+/* Align the View Code link at the bottom */
 .project a {
   text-decoration: none;
   color: #007bff;
   font-weight: bold;
+  margin-top: auto; /* Pushes the link to the bottom of the content */
 }
 
 .project a:hover {

@@ -1,7 +1,9 @@
 import React from 'react';
 import '../styles/Hero.css';
 import myImage from '../assets/hero_img.png';
-import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import XIcon from '../assets/XLogo.png'
+
 
 function Hero() {
   return (
@@ -13,8 +15,8 @@ function Hero() {
         <a href="https://github.com/fasinfasi" target="_blank" rel="noopener noreferrer">
           <FaGithub className="social-icon" />
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-          <FaTwitter className="social-icon" />
+        <a href="https://x.com/FasiFasin69751" target="_blank" rel="noopener noreferrer">
+          <img src={XIcon} alt="Close" class='social-logo' />
         </a>
       </div>
       <div className="hero-content">
