@@ -14,16 +14,35 @@
   padding: 10px 20px;
   background: #f4f4f4;
   border-radius: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+}
+
+/* Hover effect for list items */
+.skills li:hover {
+  transform: scale(1.05); /* Slightly increase size on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: lightcyan; /* Add a subtle shadow */
 }
 
 .skills li svg {
   margin-right: 8px; /* Space between icon and text */
   font-size: 1.5em; /* Adjust icon size */
+  transition: transform 0.3s ease; /* Smooth transition for icon size */
 }
 
+/* Hover effect for icons */
+.skills li:hover svg {
+  transform: scale(1.1); /* Increase icon size slightly on hover */
+}
 
 .skills li img.logo {
   width: 26px; /* Adjust logo size */
   height: 24px;
   margin-right: 3px; /* Space between logo and text */
+  transition: transform 0.3s ease; /* Smooth transition for logo size */
+}
+
+/* Hover effect for logos */
+.skills li:hover img.logo {
+  transform: scale(1.1); /* Increase logo size slightly on hover */
 }

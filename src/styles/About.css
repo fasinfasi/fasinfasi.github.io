@@ -18,12 +18,17 @@
   margin-bottom: 3rem;
 }
 .about-image {
-  width: 300px; /* Limit image width */
+  width: 300px;
   height: 400px;
-  margin-right: 20px; /* Space between text and image */
-  border-radius: 10px; /* Optional: Add rounded corners */
+  margin-right: 20px;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for shadow and movement */
 }
 
+.about-image:hover {
+  box-shadow: 6px 15px 30px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+}
 .text-content {
   max-width: 410px; /* Limit text content width */
   margin: 0; /* Remove margin */

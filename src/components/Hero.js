@@ -15,14 +15,14 @@ function Hero() {
         <a href="https://github.com/fasinfasi" target="_blank" rel="noopener noreferrer">
           <FaGithub className="social-icon" />
         </a>
-        <a href="https://x.com/FasiFasin69751" target="_blank" rel="noopener noreferrer">
+        <a href="https://x.com/FasinFasi17" target="_blank" rel="noopener noreferrer">
           <img src={XIcon} alt="Close" class='social-logo' />
         </a>
       </div>
       <div className="hero-content">
         <div className="text-content">
           <h1 class='name-head'>Hello 👋, I'm Fasin</h1>
-          <p>I ❤️ Machine</p>
+          <p>I ❤️ Machines</p>
           <p>Machine learning | Data Science | Deep Learning |<br/>Internet of Things | Tech Integrator</p>
           <b>' Teaching machine to <span class='learn-txt'>learn</span>, shaping tomorrow '</b>
           <a href="#contact" className="hero-btn">Get In Touch</a>

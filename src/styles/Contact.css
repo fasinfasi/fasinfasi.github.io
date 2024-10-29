@@ -39,7 +39,13 @@
   font-size: 24px; /* Adjust icon size */
 }
 
-.social-logo{
+.social-logo {
   width: 26px;
   height: 24px;
+  transition: transform 0.3s ease; /* Smooth transition for size change */
+}
+
+/* Hover effect for XIcon */
+.contact-social-icons a:hover .social-logo {
+  transform: scale(1.1);
 }

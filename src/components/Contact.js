@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Contact.css';
-import { FaLinkedin, FaGithub } from 'react-icons/fa'; // Import icons
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { FaDiscord } from 'react-icons/fa6';
 import XIcon from '../assets/XLogo.png'
 
@@ -18,7 +18,7 @@ function Contact() {
           <a href="https://github.com/fasinfasi" target="_blank" rel="noopener noreferrer">
             <FaGithub className="social-icon" />
           </a>
-          <a href="https://x.com/FasiFasin69751" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/FasinFasi17" target="_blank" rel="noopener noreferrer">
           <img src={XIcon} alt="Close" class='social-logo' />
           </a>
           <a href="https://discord.com/fasinfasi " target="_blank" rel="noopener noreferrer">
