@@ -1,27 +1,82 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic header styles */
 .header {
-    background: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-    width: 100%;
+  background-color: dimgrey;
+  width: 100%;
+}
+
+/* Center logo and menu */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+/* Logo image */
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+/* Hamburger menu icon */
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-icon .bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+/* Navbar links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #3498db;
+}
+
+/* Tablet view adjustments */
+@media (max-width: 1024px) {
+  .nav-links {
+    gap: 40px;
   }
-  
-  .header ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
+
+  .navbar {
+    padding: 10px 15px;
   }
-  
-  .header li {
-    margin: 0 20px;
+
+  .nav-links li a {
+    font-size: 1rem;
   }
-  
-  .header a {
-    color: white;
-    text-decoration: none;
+}
+
+/* Mobile and small screens */
+@media (max-width: 768px) {
+  /* Hide the navbar and menu icon completely */
+  .navbar, .menu-icon {
+    display: none;
   }
-  
-  .header a:hover {
-    color: #f4f4f4;
-  }
-  
+}

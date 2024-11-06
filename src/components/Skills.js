@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPython, FaJava, FaHtml5, FaCss3Alt, FaReact, FaGithub } from 'react-icons/fa';
+import { FaPython, FaJava, FaHtml5, FaCss3Alt, FaReact, FaGithub, FaPhp } from 'react-icons/fa';
 import { SiArduino, SiMongodb, SiMysql, SiTensorflow, SiKeras, SiPandas, SiNumpy, SiJupyter, SiJavascript, SiGooglecolab, SiDialogflow } from 'react-icons/si';
 import '../styles/Skills.css';
 import PythonFlaskLogo from '../assets/python-flask-icon.png'
@@ -21,6 +21,7 @@ function Skills() {
         <li><FaHtml5 color="#E34F26" /> HTML</li>
         <li><FaCss3Alt color="#1572B6" /> CSS</li>
         <li><SiJavascript color="#F7DF1E" /> JavaScript</li>
+        <li><FaPhp color="#3776AB" /> PHP</li>
       </ul>
 
       <h4>Frameworks / Libraries:</h4>
