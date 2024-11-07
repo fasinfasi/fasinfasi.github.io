@@ -1,19 +1,19 @@
 {
-  "short_name": "Fasin's_portfolio",
+  "short_name": "Fasin Portfolio",
   "name": "FasinFasi",
   "icons": [
     {
-      "src": "my_logo.png",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "my_logo.png",
+      "src": "logo_for_apple.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "my_logo.png",
+      "src": "logo_for_pwa.png",
       "type": "image/png",
       "sizes": "512x512"
     }
