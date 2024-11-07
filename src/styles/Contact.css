@@ -45,7 +45,13 @@
   transition: transform 0.3s ease; /* Smooth transition for size change */
 }
 
-/* Hover effect for XIcon */
 .contact-social-icons a:hover .social-logo {
   transform: scale(1.1);
+}
+
+@media (max-width: 232px) {
+  .contact p a {
+    font-size: 0.8em; /* Reduce font size */
+    word-wrap: break-word; /* Ensure text breaks onto the next line if necessary */
+  }
 }

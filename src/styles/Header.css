@@ -7,7 +7,7 @@
 
 /* Basic header styles */
 .header {
-  background-color: dimgrey;
+  background-color: #f4f4f4;
   width: 100%;
 }
 
@@ -23,21 +23,11 @@
 .logo {
   width: 80px;
   height: auto;
+  transition: transform 0.3s ease;
 }
 
-/* Hamburger menu icon */
-.menu-icon {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.menu-icon .bar {
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  margin: 4px 0;
-  transition: 0.4s;
+.logo:hover {
+  transform: scale(1.1); /* Increase size by 10% on hover */
 }
 
 /* Navbar links */
@@ -48,17 +38,21 @@
 }
 
 .nav-links li a {
-  color: white;
+  color: #000;
   text-decoration: none;
   font-size: 1.1rem;
-  transition: color 0.3s;
+  padding: 8px 15px; /* Add padding to make the background box larger */
+  transition: background-color 0.7s, color 0.5s;
+  border-radius: 20px; /* Rounded corners for the box */
 }
 
 .nav-links li a:hover {
-  color: #3498db;
+  background-color: #000; /* Black background on hover */
+  color: #fff; /* Change text color to white on hover */
 }
 
-/* Tablet view adjustments */
+
+/* Responsive adjustments */
 @media (max-width: 1024px) {
   .nav-links {
     gap: 40px;
@@ -73,10 +67,8 @@
   }
 }
 
-/* Mobile and small screens */
-@media (max-width: 768px) {
-  /* Hide the navbar and menu icon completely */
-  .navbar, .menu-icon {
-    display: none;
+@media (max-width: 480px) {
+  .header {
+    display: none; /* Hide the header on small screens */
   }
 }

@@ -166,7 +166,6 @@
     padding: 10px;
   }
 
-  /* Position social icons to the left of the image */
   .social-icons {
     position: absolute;
     left: 10px; /* Adjust distance from image */
@@ -179,10 +178,18 @@
   }
 
   .image-content img {
-    height: 250px; /* Smaller image size */
+    width: 100%; /* Ensures image fits within its container */
+    max-width: 300px; /* Sets a reasonable maximum width for smaller devices */
+    height: auto; /* Maintains aspect ratio */
   }
 
   .hero-btn {
     width: 100%;
+  }
+}
+
+@media (max-width: 415px) {
+  .social-icons {
+    display: none;
   }
 }
