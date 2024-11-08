@@ -1,11 +1,7 @@
+/* Default styling for larger screens */
 .projects {
   text-align: center;
   padding: 20px;
-}
-.project:hover{
-  transform: scale(1.01);
-  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.4);
-  transform: translateY(-5px);
 }
 
 .projects h2 {
@@ -21,7 +17,7 @@
 }
 
 .project {
-  flex: 1 1 30%; /* Ensures three items per row */
+  flex: 1 1 30%; /* Ensures three items per row on larger screens */
   max-width: 300px;
   padding: 15px;
   background-color: #f9f9f9;
@@ -30,6 +26,13 @@
   text-align: center;
   display: flex;
   flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+  transform: scale(1.01);
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.4);
+  transform: translateY(-5px);
 }
 
 .project img.project-image {
@@ -51,7 +54,7 @@
   color: #555;
   line-height: 1.4;
   margin: 0;
-  flex-grow: 1; /* Expands the paragraph to fill available space */
+  flex-grow: 1;
   margin-bottom: 15px;
 }
 
@@ -59,9 +62,24 @@
   text-decoration: none;
   color: #007bff;
   font-weight: bold;
-  margin-top: auto; /* Pushes the link to the bottom of the content */
+  margin-top: auto;
 }
 
 .project a:hover {
   text-decoration: underline;
+}
+
+/* Responsive styling for phone screens */
+@media (max-width: 600px) {
+  .projects-grid {
+    display: flex;
+    flex-direction: column; /* Stack projects vertically */
+    align-items: center; /* Center the projects */
+  }
+
+  .project {
+    width: 90%; /* Consistent width for all projects */
+    max-width: none; /* Remove max-width constraint */
+    margin: 10px 0; /* Space between stacked projects */
+  }
 }

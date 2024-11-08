@@ -2,12 +2,12 @@ import React from 'react';
 import { FaPython, FaJava, FaHtml5, FaCss3Alt, FaReact, FaGithub, FaPhp } from 'react-icons/fa';
 import { SiArduino, SiMongodb, SiMysql, SiTensorflow, SiKeras, SiPandas, SiNumpy, SiJupyter, SiJavascript, SiGooglecolab, SiDialogflow } from 'react-icons/si';
 import '../styles/Skills.css';
-import PythonFlaskLogo from '../assets/python-flask-icon.png'
-import ScikitLearnLogo from '../assets/ScikitLearnIcon.png'
-import GitLogo from '../assets/Git-logo.png'
-import FigmaLogo from '../assets/Figma-logo.png'
-import ExpoGoLogo from '../assets/ExpoGo-logo.png'
-
+import PythonFlaskLogo from '../assets/python-flask-icon.png';
+import ScikitLearnLogo from '../assets/ScikitLearnIcon.png';
+import GitLogo from '../assets/Git-logo.png';
+import FigmaLogo from '../assets/Figma-logo.png';
+import ExpoGoLogo from '../assets/ExpoGo-logo.png';
+import MatplotlibLogo from '../assets/MatplotlibLogo.png'; // Add the Matplotlib logo
 
 function Skills() {
   return (
@@ -30,6 +30,7 @@ function Skills() {
         <li><img src={ScikitLearnLogo} alt="ScikitLogo" className='logo' /> Scikit-learn</li>
         <li><SiKeras color="#D00000" /> Keras</li>
         <li><SiPandas color="#150458" /> Pandas</li>
+        <li><img src={MatplotlibLogo} alt="Matplotlib Logo" className='logo' /> Matplotlib</li> {/* Added Matplotlib */}
         <li><SiNumpy color="#013243" /> Numpy</li>
         <li><FaReact color="#61DAFB" /> React</li>
         <li><img src={PythonFlaskLogo} alt="Python Flask" className='logo' /> Flask</li>

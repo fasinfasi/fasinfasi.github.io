@@ -1,48 +1,55 @@
+/* Default styling for larger screens */
 .skills ul {
   list-style-type: none;
   padding: 0;
   text-align: center;
-  display: flex; /* Align items horizontally */
-  flex-wrap: wrap; /* Allow wrapping to next line if needed */
-  justify-content: center; /* Center items horizontally */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
+  gap: 15px; /* Space between items */
+  justify-items: center; /* Center items in each grid cell */
 }
 
+/* Style for each skill item */
 .skills li {
   display: flex;
   align-items: center;
-  margin: 10px 15px; /* Adjust spacing between items */
+  justify-content: center;
   padding: 10px 20px;
   background: #f4f4f4;
   border-radius: 5px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Hover effect for list items */
 .skills li:hover {
-  transform: scale(1.05); /* Slightly increase size on hover */
+  transform: scale(1.05);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  background-color: lightcyan; /* Add a subtle shadow */
+  background-color: lightcyan;
 }
 
+/* Icon styling within skill items */
 .skills li svg {
-  margin-right: 8px; /* Space between icon and text */
-  font-size: 1.5em; /* Adjust icon size */
-  transition: transform 0.3s ease; /* Smooth transition for icon size */
-}
-
-/* Hover effect for icons */
-.skills li:hover svg {
-  transform: scale(1.1); /* Increase icon size slightly on hover */
+  margin-right: 8px;
+  font-size: 1.5em;
+  transition: transform 0.3s ease;
 }
 
 .skills li img.logo {
-  width: 26px; /* Adjust logo size */
+  width: 26px;
   height: 24px;
-  margin-right: 3px; /* Space between logo and text */
-  transition: transform 0.3s ease; /* Smooth transition for logo size */
+  margin-right: 3px;
+  transition: transform 0.3s ease;
 }
 
-/* Hover effect for logos */
+/* Hover effect for icons and logos */
+.skills li:hover svg,
 .skills li:hover img.logo {
-  transform: scale(1.1); /* Increase logo size slightly on hover */
+  transform: scale(1.1);
+}
+
+/* Responsive styling for smaller screens (phones) */
+@media (max-width: 600px) {
+  .skills ul {
+    grid-template-columns: repeat(2, 1fr); /* Two items per row on phones */
+  }
 }
