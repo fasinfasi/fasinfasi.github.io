@@ -7,7 +7,11 @@ import ScikitLearnLogo from '../assets/ScikitLearnIcon.png';
 import GitLogo from '../assets/Git-logo.png';
 import FigmaLogo from '../assets/Figma-logo.png';
 import ExpoGoLogo from '../assets/ExpoGo-logo.png';
-import MatplotlibLogo from '../assets/MatplotlibLogo.png'; // Add the Matplotlib logo
+import MatplotlibLogo from '../assets/MatplotlibLogo.png';
+import BlynkLogo from '../assets/blynk_logo.png';
+import OpenCVLogo from '../assets/OpenCV_logo.png';
+
+
 
 function Skills() {
   return (
@@ -30,7 +34,8 @@ function Skills() {
         <li><img src={ScikitLearnLogo} alt="ScikitLogo" className='logo' /> Scikit-learn</li>
         <li><SiKeras color="#D00000" /> Keras</li>
         <li><SiPandas color="#150458" /> Pandas</li>
-        <li><img src={MatplotlibLogo} alt="Matplotlib Logo" className='logo' /> Matplotlib</li> {/* Added Matplotlib */}
+        <li><img src={OpenCVLogo} alt="OpenCVLogo" className='logo' />OpenCV</li>
+        <li><img src={MatplotlibLogo} alt="Matplotlib Logo" className='logo' /> Matplotlib</li>
         <li><SiNumpy color="#013243" /> Numpy</li>
         <li><FaReact color="#61DAFB" /> React</li>
         <li><img src={PythonFlaskLogo} alt="Python Flask" className='logo' /> Flask</li>
@@ -49,6 +54,7 @@ function Skills() {
         <li><SiGooglecolab color="#F9AB00" /> Google Colab</li>
         <li><img src={GitLogo} alt="GitLogo" className='logo' /> Git</li>
         <li><FaGithub color="#181717" /> GitHub</li>
+        <li><img src={BlynkLogo} alt="BlynkLogo" className='logo' />  Blynk</li>
         <li><SiDialogflow color="#FF9800" /> Dialogflow</li>
         <li><img src={FigmaLogo} alt="Figma Logo" className='logo' />Figma</li>
         <li><img src={ExpoGoLogo} alt="ExpoGoLogo" className='logo' /> ExpoGO</li>
