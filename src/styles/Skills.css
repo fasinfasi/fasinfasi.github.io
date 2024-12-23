@@ -25,6 +25,14 @@
   transform: scale(1.05);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   background-color: lightcyan;
+  text-decoration: none;
+}
+.link-li{
+  color: #001;
+}
+.link-li:hover{
+  color: #001;
+  text-decoration: none;
 }
 
 /* Icon styling within skill items */
@@ -45,6 +53,20 @@
 .skills li:hover svg,
 .skills li:hover img.logo {
   transform: scale(1.1);
+  text-decoration: none;
+}
+
+/* Remove link decoration and change text color */
+.skills li a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Change text color to black */
+  font-weight: normal; /* Ensure text isn't bold if you prefer */
+}
+
+/* Hover effect for links inside the list items */
+.skills li a:hover {
+  color: black; /* Keep text black on hover */
+  text-decoration: none;
 }
 
 /* Responsive styling for smaller screens (phones) */

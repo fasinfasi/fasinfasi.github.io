@@ -23,7 +23,7 @@ function Hero() {
         <div className="text-content">
           <h1 class='name-head'>Hello 👋, I'm Fasin</h1>
           <p>I ❤️ Machines</p>
-          <p>Machine learning | Data Science | Deep Learning |<br/>Internet of Things | Tech Integrator</p>
+          <p>Machine learning | Data Analysis | Deep Learning | Neural Network | Computer Vision | Internet of Things | Tech Integrator</p>
           <b>' Teaching machine to <span class='learn-txt'>learn</span>, shaping tomorrow '</b>
           <a href="#contact" className="hero-btn">Get In Touch</a>
         </div>
