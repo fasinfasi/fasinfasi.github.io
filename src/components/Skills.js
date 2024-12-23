@@ -66,7 +66,9 @@ function Skills() {
         <a href="https://stackoverflow.com/users/28130311/fasin-fasi?tab=profile" target="_blank" rel="noopener noreferrer" className='link-li'>
           <li><FaStackOverflow color="#F58025" /> StackOverflow</li>
         </a>
-        <li><SiLeetcode color="#FFA116" /> LeetCode</li>
+        <a href="https://leetcode.com/u/FasinFasi/" target="_blank" rel="noopener noreferrer" className='link-li'>
+          <li><SiLeetcode color="#FFA116" /> LeetCode</li>
+        </a>
         <li><img src={FigmaLogo} alt="Figma Logo" className='logo' />Figma</li>
         <li><img src={ExpoGoLogo} alt="ExpoGoLogo" className='logo' /> ExpoGO</li>
       </ul>
