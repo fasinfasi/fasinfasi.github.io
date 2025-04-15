@@ -65,8 +65,45 @@
   margin-top: auto;
 }
 
-.project a:hover {
-  text-decoration: underline;
+/* Styling for the "More Projects" link */
+.more-projects {
+  margin-top: 20px;
+}
+
+.more-projects-link {
+  font-size: 1.2rem;
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background-color 0.4s ease, color 0.4s ease;
+  display: inline-block;
+  position: relative;
+}
+
+.more-projects-link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  border-radius: 8px;
+  transform: scale(0);
+  transform-origin: center;
+  z-index: -1;
+  transition: transform 0.4s ease;
+}
+
+.more-projects-link:hover::before {
+  transform: scale(1);
+}
+
+.more-projects-link:hover {
+  color: white;
+  text-decoration: none;
 }
 
 /* Responsive styling for phone screens */

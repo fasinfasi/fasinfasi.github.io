@@ -28,6 +28,12 @@ function Projects() {
           <a href="https://github.com/fasinfasi/Real-Estate-Prediction" target="_blank" rel="noopener noreferrer">View Code</a>
         </div>
       </div>
+      <div className="more-projects">
+        <a href="https://github.com/fasinfasi?tab=repositories" target="_blank" rel="noopener noreferrer" className="more-projects-link">
+          More Projects
+        </a>
+      </div>
+
     </section>
   );
 }
