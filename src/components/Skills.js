@@ -1,6 +1,8 @@
 import React from 'react';
-import { FaPython, FaJava, FaHtml5, FaCss3Alt, FaReact, FaGithub, FaStackOverflow  } from 'react-icons/fa';
-import { SiArduino, SiMongodb, SiMysql, SiTensorflow, SiKeras, SiPandas, SiNumpy, SiFastapi, SiCplusplus, SiKaggle, SiPostman, SiLeetcode , SiJupyter, SiJavascript, SiGooglecolab, SiDialogflow } from 'react-icons/si';
+import { FaPython, FaJava, FaHtml5, FaCss3Alt, FaReact, FaGithub, FaStackOverflow } from 'react-icons/fa';
+import { SiArduino, SiMongodb, SiMysql, SiTensorflow, SiKeras, SiPandas, SiNumpy, SiFastapi, SiCplusplus, SiKaggle, SiPostman, SiLeetcode , SiJupyter, SiJavascript, SiGooglecolab, SiDialogflow, SiMicrosoftexcel, SiPowerbi, SiDocker  } from 'react-icons/si';
+import { GiBrain, GiMeshNetwork } from 'react-icons/gi';
+import { FaComments } from 'react-icons/fa';
 import '../styles/Skills.css';
 import PythonFlaskLogo from '../assets/python-flask-icon.png';
 import ScikitLearnLogo from '../assets/ScikitLearnIcon.png';
@@ -10,8 +12,6 @@ import ExpoGoLogo from '../assets/ExpoGo-logo.png';
 import MatplotlibLogo from '../assets/MatplotlibLogo.png';
 import BlynkLogo from '../assets/blynk_logo.png';
 import OpenCVLogo from '../assets/OpenCV_logo.png';
-
-
 
 function Skills() {
   return (
@@ -28,6 +28,13 @@ function Skills() {
         <li><SiCplusplus color="#00599C" /> C++</li>
       </ul>
 
+      <h4>AI / ML Concepts:</h4>
+      <ul>
+        <li><GiBrain color="#E528D5"/> Deep Learning</li>
+        <li><GiMeshNetwork color="2F21F6"/> Convolutional Neural Networks (CNN)</li>
+        <li><FaComments color="#BBBE09"/> Natural Language Processing (NLP)</li>
+      </ul>
+
       <h4>Frameworks / Libraries:</h4>
       <ul>
         <li><SiTensorflow color="#FF6F00" /> TensorFlow</li>
@@ -41,6 +48,7 @@ function Skills() {
         <li><SiFastapi color="#009688" /> FastAPI</li>
         <li><img src={PythonFlaskLogo} alt="Python Flask" className='logo' /> Flask</li>
       </ul>
+
 
       <h4>Databases:</h4>
       <ul>
@@ -71,6 +79,10 @@ function Skills() {
         </a>
         <li><img src={FigmaLogo} alt="Figma Logo" className='logo' />Figma</li>
         <li><img src={ExpoGoLogo} alt="ExpoGoLogo" className='logo' /> ExpoGO</li>
+        <li><SiMicrosoftexcel  color="#13C851" /> Excel</li>
+        <li><SiPowerbi color="#FF9800" /> Power BI</li>
+        <li><SiDocker color="#0779C8" /> Docker</li>
+        <li>🚀 Render</li>
       </ul>
     </section>
   );

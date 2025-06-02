@@ -58,11 +58,54 @@
   margin-bottom: 15px;
 }
 
+.tech-stack-container {
+  overflow: hidden;
+  padding: 4px 0;
+}
+
+.tech-stack-wrapper {
+  width: 100%;
+  overflow: hidden;
+  padding: 6px 0;
+  position: relative;
+  height: 32px;
+}
+
+.ticker {
+  display: inline-flex;
+  white-space: nowrap;
+  gap: 10px;
+  transform: translateX(0);
+}
+
+.ticker.animate {
+  animation: scrollTicker 15s linear infinite;
+}
+
+@keyframes scrollTicker {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.skill-tag {
+  background-color: #f0f0f0;
+  padding: 4px 10px;
+  border-radius: 16px;
+  font-size: 0.85rem;
+  color: #333;
+  white-space: nowrap;
+}
+
+
 .project a {
   text-decoration: none;
   color: #007bff;
   font-weight: bold;
-  margin-top: auto;
+  margin-top: 7px;
 }
 
 /* Styling for the "More Projects" link */
