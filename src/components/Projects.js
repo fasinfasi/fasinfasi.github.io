@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/Projects.css';
-import AquasyncImg from '../assets/aquasync_img.png';
+import NewsBossImage from '../assets/news_project_image.png';
 import RealEstateImg from '../assets/RealEstateImg.png';
 import FinancialImg from '../assets/Financial_img.jpg';
 import ShoozyImg from '../assets/Shoozy_Img.jpg';
@@ -36,17 +36,17 @@ function Projects() {
       <h2>Projects</h2>
       <div className="projects-grid">
         <div className="project">
-          <img src={AquasyncImg} alt="AquaSync Project" className="project-image" />
-          <h3>AquaSync</h3>
-          <p>A water-tracking app built with React Native and integrated with machine learning algorithms to analyze hydration data.</p>
-          <TechStack skills={['Flutter', 'IoT', 'Flask', 'MongoDB', 'Arduino', 'Firebase', 'Data Analysis', 'Figma']} />
-          <a href="https://github.com/fasinfasi/SmartWaterBottle/tree/fasin_patch2" target="_blank" rel="noopener noreferrer">View Code</a>
+          <img src={NewsBossImage} alt="NewsBoss Project" className="project-image" />
+          <h3>AI News Summarizer</h3>
+          <p>An intelligent news aggregation and summarization platform powered by using advanced AI models for real-time insights.</p>
+          <TechStack skills={['PyTorch', 'BERT', 'PEGASUS', 'A/B testing', 'HuggingFace', 'AWS S3', 'Python']} />
+          <a href="https://github.com/fasinfasi/News_Intelligence_System" target="_blank" rel="noopener noreferrer">View Code</a>
         </div>
         <div className="project">
           <img src={ShoozyImg} alt="Shoozy-Shoe-Recommentation" className="project-image" />
           <h3>Shoozy</h3>
           <p>Content-based filtering that recommends shoes to users based on product similarity and customer preferences.</p>
-          <TechStack skills={['Python', 'ML', 'NLP', 'TensorFlow', 'Pandas', 'Matplotlib', 'scikit-learn', 'Flask', 'Docker', 'Render', 'Excel', 'React.js', 'Node.js']} />
+          <TechStack skills={['ML', 'TensorFlow', 'NLP', 'Pandas', 'Matplotlib', 'scikit-learn', 'Flask', 'Docker', 'Render', 'Python', 'Excel', 'React.js', 'Node.js']} />
           <a href="https://github.com/fasinfasi/FootWear-recommender" target="_blank" rel="noopener noreferrer">View Code</a>
         </div>
         <div className="project">

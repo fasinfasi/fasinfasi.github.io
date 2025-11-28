@@ -5,6 +5,8 @@ import CollectorateImage from '../assets/collectorate.jpg';
 import DebuggingImage from '../assets/debugging_pic.jpg';
 import NAACImage from '../assets/iedc_pic.jpg';
 import ARVRImage from '../assets/arvr_pic.jpg';
+import Irin_IoT from '../assets/Irin_IoT.jpeg';
+import AquaLeadImage from '../assets/project_lead_pic.jpg';
 
 const highlightData = [
   {
@@ -27,15 +29,27 @@ const highlightData = [
   },
   {
     id: 4,
+    image: DebuggingImage,
+    title: 'Coordinator of Debugging Competition 🐞',
+    link: '',
+  },
+  {
+    id: 5,
     image: NAACImage,
     title: 'Project Presentation for NAAC 👨‍🏫',
     link: 'https://www.linkedin.com/posts/fasinfasi_internetofthings-iot-blynk-activity-7232452781821874176-GOFE',
   },
   {
-    id: 5,
-    image: DebuggingImage,
-    title: 'Coordinator of Debugging Competition 🐞',
-    link: '',
+    id: 6,
+    image: Irin_IoT,
+    title: 'IoT Project Advisor 👨🏻‍💼',
+    link: 'https://www.linkedin.com/posts/fasinfasi_one-day-a-mom-called-me-to-ask-for-help-activity-7358323623109013504-PgDu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD3BfD8BjijEcsfQ3UqR8o2hIwaylWYirK0',
+  },
+  {
+    id: 7,
+    image: AquaLeadImage,
+    title: 'Project Team Head 🧢',
+    link: 'https://www.linkedin.com/posts/fasinfasi_yesterday-marked-a-significant-moment-for-activity-7308716713007554564-hSJg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD3BfD8BjijEcsfQ3UqR8o2hIwaylWYirK0',
   },
 ];
 

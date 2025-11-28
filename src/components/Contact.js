@@ -8,7 +8,7 @@ function Contact() {
   return (
     <section id="contact" className="contact">
       <h2>Contact Me</h2>
-      <p>Feel free to reach out for collaborations, opportunities, or just to say hi!</p>
+      <p>Feel free to reach out <br></br>I love to connect with people😍 just say 'Hi✋🏻'</p>
       <div className="contact-info">
         <p>Email: <a href="mailto:fasinfasi17@gmail.com">fasinfasi17@gmail.com</a></p>
         <div className="contact-social-icons">

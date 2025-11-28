@@ -80,21 +80,43 @@
   display: inline-block;
   padding: 14px 16px;
   width: 200px;
-  background-color: #007bff;
-  color: white;
   border: none;
   margin-top: 20px;
   border-radius: 25px;
   text-decoration: none;
   text-align: center;
   font-size: 14px;
-  transition: background-color 0.3s;
+  color: #fff;
+
+  /* Gradient background */
+  background: linear-gradient(90deg, #8A2BE2, #1E90FF, #FF4DCA);
+  background-size: 300% 300%;
+
+  /* Glow */
+  box-shadow: 0 0 10px rgba(138, 43, 226, 0.5),
+              0 0 20px rgba(30, 144, 255, 0.4);
+
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+/* 🔥 Flowing gradient animation */
+@keyframes flow {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 .hero-btn:hover {
-  background-color: #0056b3;
+  animation: flow 3s linear infinite;
+  transform: translateY(-3px);
   text-decoration: none;
+
+  /* Stronger glow */
+  box-shadow: 0 0 15px rgba(138, 43, 226, 0.7),
+              0 0 25px rgba(30, 144, 255, 0.6),
+              0 0 35px rgba(255, 77, 202, 0.6);
 }
+
 
 .text-content b {
   margin-top: 0;
@@ -105,6 +127,22 @@
 .social-icons a:hover .social-logo {
   transform: scale(1.1);
   transition: transform 0.3s ease;
+}
+
+.quote-wrapper {
+  height: 45px;   /* adjust if needed */
+  display: flex;
+  align-items: center;
+}
+
+.morphing-quote {
+  animation: fadeIn 0.9s ease-in-out;
+  display: inline-block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 /* Responsive adjustments */
