@@ -1,0 +1,18 @@
+### Run on locally ###
+
+cd C:\Users\HP\Repositories\portfolio\fasinfasi.github.io
+
+npm start
+
+
+###  Setup After modifying the portfolio #####
+
+1->  git add .
+
+2->  git commit -m 'msg'
+
+3->  npm run build
+
+4->  npm run deploy
+
+5->  git push origin main

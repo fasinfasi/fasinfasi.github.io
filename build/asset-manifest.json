@@ -1,35 +1,39 @@
 {
   "files": {
-    "main.css": "/static/css/main.d652403c.css",
-    "main.js": "/static/js/main.dbd501fc.js",
+    "main.css": "/static/css/main.01da8c92.css",
+    "main.js": "/static/js/main.4bd73067.js",
     "static/media/arvr_pic.jpg": "/static/media/arvr_pic.2220deb0b25f58696bf2.jpg",
     "static/media/Financial_img.jpg": "/static/media/Financial_img.864b54929e5cf9baf557.jpg",
     "static/media/iedc_pic.jpg": "/static/media/iedc_pic.71f895f74bce4cf19bea.jpg",
     "static/media/Shoozy_Img.jpg": "/static/media/Shoozy_Img.b4c582a0a64a12dd0c3e.jpg",
     "static/media/debugging_pic.jpg": "/static/media/debugging_pic.8f8e013e271bd36bc94d.jpg",
     "static/media/about_img.jpg": "/static/media/about_img.8fbc79a23bf0cc3e013e.jpg",
+    "static/media/news_project_image.png": "/static/media/news_project_image.21845f14c3530e9c1ce1.png",
     "static/media/hero_img.png": "/static/media/hero_img.87c1516f6864ad93e0bb.png",
-    "static/media/aquasync_img.png": "/static/media/aquasync_img.81db102ab2b104d69e60.png",
+    "static/media/project_lead_pic.jpg": "/static/media/project_lead_pic.d56d0fe7b0fb91c50591.jpg",
     "static/media/PotatoImg.jpg": "/static/media/PotatoImg.a527b350e563b3da937c.jpg",
     "static/media/CatDo_img.png": "/static/media/CatDo_img.b4f27c408d357178de05.png",
     "static/media/collectorate.jpg": "/static/media/collectorate.c3caa7a240c51e7d1c02.jpg",
+    "static/media/Irin_IoT.jpeg": "/static/media/Irin_IoT.323afddcf2d535cbcc8d.jpeg",
+    "static/media/HuggingFace_logo.png": "/static/media/HuggingFace_logo.a6a072c8dab70895252a.png",
+    "static/media/aws_logo.png": "/static/media/aws_logo.c8e2707a6e7c57b6998b.png",
     "static/media/hackathon_pic.jpg": "/static/media/hackathon_pic.9caf3459a8eabf95a4ac.jpg",
     "static/media/ScikitLearnIcon.png": "/static/media/ScikitLearnIcon.151db91388c4e0ed7f72.png",
+    "static/media/mlflow_logo.png": "/static/media/mlflow_logo.858b472b5970963196aa.png",
     "static/media/python-flask-icon.png": "/static/media/python-flask-icon.12dac568883ef95fedb3.png",
     "static/media/RealEstateImg.png": "/static/media/RealEstateImg.79ee7e69016d5dfa7615.png",
     "static/media/OpenCV_logo.png": "/static/media/OpenCV_logo.b5ee43bbdeafaa9d589f.png",
-    "static/media/blynk_logo.png": "/static/media/blynk_logo.16565a3667569cac08cd.png",
+    "static/media/gcp_logo.png": "/static/media/gcp_logo.be0c419faa2dfcb8029d.png",
     "static/media/MatplotlibLogo.png": "/static/media/MatplotlibLogo.6445c04fda933d421a3f.png",
-    "static/media/ExpoGo-logo.png": "/static/media/ExpoGo-logo.242a85f940575d7f2632.png",
     "static/media/Figma-logo.png": "/static/media/Figma-logo.dd674d2f941144218e9e.png",
     "static/media/Git-logo.png": "/static/media/Git-logo.5b3441809c4f03e69685.png",
     "static/media/XLogo.png": "/static/media/XLogo.15767b095c54b6c4f235.png",
     "index.html": "/index.html",
-    "main.d652403c.css.map": "/static/css/main.d652403c.css.map",
-    "main.dbd501fc.js.map": "/static/js/main.dbd501fc.js.map"
+    "main.01da8c92.css.map": "/static/css/main.01da8c92.css.map",
+    "main.4bd73067.js.map": "/static/js/main.4bd73067.js.map"
   },
   "entrypoints": [
-    "static/css/main.d652403c.css",
-    "static/js/main.dbd501fc.js"
+    "static/css/main.01da8c92.css",
+    "static/js/main.4bd73067.js"
   ]
 }
